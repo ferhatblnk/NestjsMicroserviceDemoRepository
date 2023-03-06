@@ -33,4 +33,8 @@ export class OrdersService {
   async getOrders() {
     return this.ordersRepository.find({});
   }
+
+  getHello(): string {
+    return 'Hello World';
+  }
 }
